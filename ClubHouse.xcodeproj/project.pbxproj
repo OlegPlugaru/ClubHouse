@@ -9,16 +9,41 @@
 /* Begin PBXBuildFile section */
 		DD18F4262B54423A0004A0AC /* ClubHouseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD18F4252B54423A0004A0AC /* ClubHouseApp.swift */; };
 		DD18F4282B54423A0004A0AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD18F4272B54423A0004A0AC /* ContentView.swift */; };
-		DD18F42A2B54423B0004A0AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD18F4292B54423B0004A0AC /* Assets.xcassets */; };
 		DD18F42D2B54423B0004A0AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD18F42C2B54423B0004A0AC /* Preview Assets.xcassets */; };
+		DD18F4342B5442700004A0AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD18F4332B5442700004A0AC /* Assets.xcassets */; };
+		DD18F4372B5442CC0004A0AC /* RoomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD18F4362B5442CC0004A0AC /* RoomViewModel.swift */; };
+		DD18F43A2B5443130004A0AC /* UpcomingRoomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD18F4392B5443130004A0AC /* UpcomingRoomModel.swift */; };
+		DD18F43C2B54431D0004A0AC /* FeedRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD18F43B2B54431D0004A0AC /* FeedRoom.swift */; };
+		DD18F43E2B5443260004A0AC /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD18F43D2B5443260004A0AC /* FeedItem.swift */; };
+		DD18F4452B54436B0004A0AC /* NunitoSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD18F4412B54436B0004A0AC /* NunitoSans-ExtraBold.ttf */; };
+		DD18F4462B54436B0004A0AC /* NunitoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD18F4422B54436B0004A0AC /* NunitoSans-Regular.ttf */; };
+		DD18F4472B54436B0004A0AC /* NunitoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD18F4432B54436B0004A0AC /* NunitoSans-Bold.ttf */; };
+		DD18F4482B54436B0004A0AC /* NunitoSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD18F4442B54436B0004A0AC /* NunitoSans-SemiBold.ttf */; };
+		DD18F44A2B5443840004A0AC /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD18F4492B5443840004A0AC /* Image.swift */; };
+		DD18F44C2B54488C0004A0AC /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD18F44B2B54488C0004A0AC /* Font.swift */; };
+		DD18F4512B54667C0004A0AC /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD18F4502B54667C0004A0AC /* HomeHeaderView.swift */; };
+		DD18F4542B546BDC0004A0AC /* UpcomingRoomsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD18F4532B546BDC0004A0AC /* UpcomingRoomsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DD18F4222B54423A0004A0AC /* ClubHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClubHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD18F4252B54423A0004A0AC /* ClubHouseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubHouseApp.swift; sourceTree = "<group>"; };
 		DD18F4272B54423A0004A0AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DD18F4292B54423B0004A0AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD18F42C2B54423B0004A0AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD18F4332B5442700004A0AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD18F4362B5442CC0004A0AC /* RoomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewModel.swift; sourceTree = "<group>"; };
+		DD18F4392B5443130004A0AC /* UpcomingRoomModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingRoomModel.swift; sourceTree = "<group>"; };
+		DD18F43B2B54431D0004A0AC /* FeedRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedRoom.swift; sourceTree = "<group>"; };
+		DD18F43D2B5443260004A0AC /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		DD18F4412B54436B0004A0AC /* NunitoSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		DD18F4422B54436B0004A0AC /* NunitoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Regular.ttf"; sourceTree = "<group>"; };
+		DD18F4432B54436B0004A0AC /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
+		DD18F4442B54436B0004A0AC /* NunitoSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		DD18F4492B5443840004A0AC /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		DD18F44B2B54488C0004A0AC /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		DD18F44D2B5448F90004A0AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DD18F4502B54667C0004A0AC /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		DD18F4532B546BDC0004A0AC /* UpcomingRoomsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingRoomsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +76,14 @@
 		DD18F4242B54423A0004A0AC /* ClubHouse */ = {
 			isa = PBXGroup;
 			children = (
+				DD18F44E2B54665E0004A0AC /* Views */,
+				DD18F44D2B5448F90004A0AC /* Info.plist */,
+				DD18F4352B54429A0004A0AC /* ViewModel */,
+				DD18F4382B5442F70004A0AC /* Model */,
+				DD18F43F2B5443560004A0AC /* Resources */,
 				DD18F4252B54423A0004A0AC /* ClubHouseApp.swift */,
 				DD18F4272B54423A0004A0AC /* ContentView.swift */,
-				DD18F4292B54423B0004A0AC /* Assets.xcassets */,
+				DD18F4332B5442700004A0AC /* Assets.xcassets */,
 				DD18F42B2B54423B0004A0AC /* Preview Content */,
 			);
 			path = ClubHouse;
@@ -65,6 +95,70 @@
 				DD18F42C2B54423B0004A0AC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD18F4352B54429A0004A0AC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DD18F4362B5442CC0004A0AC /* RoomViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DD18F4382B5442F70004A0AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD18F4392B5443130004A0AC /* UpcomingRoomModel.swift */,
+				DD18F43B2B54431D0004A0AC /* FeedRoom.swift */,
+				DD18F43D2B5443260004A0AC /* FeedItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DD18F43F2B5443560004A0AC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DD18F4402B54436B0004A0AC /* Fonts */,
+				DD18F4492B5443840004A0AC /* Image.swift */,
+				DD18F44B2B54488C0004A0AC /* Font.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DD18F4402B54436B0004A0AC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DD18F4412B54436B0004A0AC /* NunitoSans-ExtraBold.ttf */,
+				DD18F4422B54436B0004A0AC /* NunitoSans-Regular.ttf */,
+				DD18F4432B54436B0004A0AC /* NunitoSans-Bold.ttf */,
+				DD18F4442B54436B0004A0AC /* NunitoSans-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DD18F44E2B54665E0004A0AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DD18F4522B546BC50004A0AC /* HomeFeed */,
+				DD18F44F2B5466630004A0AC /* Headers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DD18F44F2B5466630004A0AC /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				DD18F4502B54667C0004A0AC /* HomeHeaderView.swift */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		DD18F4522B546BC50004A0AC /* HomeFeed */ = {
+			isa = PBXGroup;
+			children = (
+				DD18F4532B546BDC0004A0AC /* UpcomingRoomsView.swift */,
+			);
+			path = HomeFeed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +219,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD18F4342B5442700004A0AC /* Assets.xcassets in Resources */,
+				DD18F4452B54436B0004A0AC /* NunitoSans-ExtraBold.ttf in Resources */,
 				DD18F42D2B54423B0004A0AC /* Preview Assets.xcassets in Resources */,
-				DD18F42A2B54423B0004A0AC /* Assets.xcassets in Resources */,
+				DD18F4482B54436B0004A0AC /* NunitoSans-SemiBold.ttf in Resources */,
+				DD18F4472B54436B0004A0AC /* NunitoSans-Bold.ttf in Resources */,
+				DD18F4462B54436B0004A0AC /* NunitoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +236,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD18F4282B54423A0004A0AC /* ContentView.swift in Sources */,
+				DD18F4542B546BDC0004A0AC /* UpcomingRoomsView.swift in Sources */,
+				DD18F43C2B54431D0004A0AC /* FeedRoom.swift in Sources */,
+				DD18F43E2B5443260004A0AC /* FeedItem.swift in Sources */,
+				DD18F4512B54667C0004A0AC /* HomeHeaderView.swift in Sources */,
+				DD18F44A2B5443840004A0AC /* Image.swift in Sources */,
+				DD18F44C2B54488C0004A0AC /* Font.swift in Sources */,
+				DD18F4372B5442CC0004A0AC /* RoomViewModel.swift in Sources */,
+				DD18F43A2B5443130004A0AC /* UpcomingRoomModel.swift in Sources */,
 				DD18F4262B54423A0004A0AC /* ClubHouseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +381,7 @@
 				DEVELOPMENT_TEAM = W49998LVKV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClubHouse/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +411,7 @@
 				DEVELOPMENT_TEAM = W49998LVKV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClubHouse/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
