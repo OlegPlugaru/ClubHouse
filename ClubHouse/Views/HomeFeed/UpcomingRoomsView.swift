@@ -9,8 +9,20 @@ import SwiftUI
 
 struct UpcomingRoomsView: View {
     let upcomingRooms: [UpcomingRoom]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading, spacing: 8) {
+            ForEach(upcomingRooms) { room in
+                GroupRoomView(upcomingRoom: room)
+            }
+        }
+        .padding(.vertical, 15)
+        .padding(.leading, 35)
+        .padding(.trailing, 15)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background(Color.secondaryBackground)
+        .cornerRadius(18)
+        .padding(.horizontal, 15)
     }
 }
 
@@ -25,17 +37,7 @@ struct GroupRoomView: View {
             VStack(alignment: .leading) {
                 
                 if let groupName = upcomingRoom.groupName {
-                    HStack {
-                        Text(groupName.uppercased())
-                            .font(Font.Nunito.bold(size: 8))
-                            .foregroundColor(Color.textBlack)
-                        
-                        Image
-                            .home
-                            .font(Font.Nunito.bold(size: 10))
-                            .foregroundColor(Color.green)
-                    }
-                    .padding(.top, 1)
+                    CurrentGroupView(groupName: groupName)
                 }
                 
                 Text(upcomingRoom.roomName)
@@ -47,9 +49,28 @@ struct GroupRoomView: View {
     }
 }
 
+// MARK: - CurrentGroupView
+struct CurrentGroupView: View {
+    let groupName: String
+    
+    var body: some View {
+        HStack {
+            Text(groupName.uppercased())
+                .font(Font.Nunito.bold(size: 8))
+                .foregroundColor(Color.textBlack)
+            
+            Image
+                .home
+                .font(Font.Nunito.bold(size: 10))
+                .foregroundColor(.green)
+        }
+        .padding(.top, 1)
+    }
+}
 
 #Preview {
-    UpcomingRoomsView(upcomingRooms: [UpcomingRoom.dummyData[0]])
+    UpcomingRoomsView(upcomingRooms: UpcomingRoom.dummyData)
+        .previewLayout(.sizeThatFits)
 }
 
 #Preview {

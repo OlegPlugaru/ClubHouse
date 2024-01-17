@@ -23,6 +23,10 @@
 		DD18F44C2B54488C0004A0AC /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD18F44B2B54488C0004A0AC /* Font.swift */; };
 		DD18F4512B54667C0004A0AC /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD18F4502B54667C0004A0AC /* HomeHeaderView.swift */; };
 		DD18F4542B546BDC0004A0AC /* UpcomingRoomsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD18F4532B546BDC0004A0AC /* UpcomingRoomsView.swift */; };
+		DD3548422B5845B000542598 /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3548412B5845B000542598 /* RoomView.swift */; };
+		DD3548442B5852EC00542598 /* BottomHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3548432B5852EC00542598 /* BottomHomeView.swift */; };
+		DDA7D4A42B585DDE008CDA4E /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA7D4A32B585DDE008CDA4E /* ProfileHeaderView.swift */; };
+		DDA7D4A72B585E97008CDA4E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA7D4A62B585E97008CDA4E /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +48,10 @@
 		DD18F44D2B5448F90004A0AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DD18F4502B54667C0004A0AC /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
 		DD18F4532B546BDC0004A0AC /* UpcomingRoomsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingRoomsView.swift; sourceTree = "<group>"; };
+		DD3548412B5845B000542598 /* RoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomView.swift; sourceTree = "<group>"; };
+		DD3548432B5852EC00542598 /* BottomHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomHomeView.swift; sourceTree = "<group>"; };
+		DDA7D4A32B585DDE008CDA4E /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		DDA7D4A62B585E97008CDA4E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +147,7 @@
 		DD18F44E2B54665E0004A0AC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DDA7D4A52B585E84008CDA4E /* Profile */,
 				DD18F4522B546BC50004A0AC /* HomeFeed */,
 				DD18F44F2B5466630004A0AC /* Headers */,
 			);
@@ -149,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				DD18F4502B54667C0004A0AC /* HomeHeaderView.swift */,
+				DDA7D4A32B585DDE008CDA4E /* ProfileHeaderView.swift */,
 			);
 			path = Headers;
 			sourceTree = "<group>";
@@ -157,8 +167,18 @@
 			isa = PBXGroup;
 			children = (
 				DD18F4532B546BDC0004A0AC /* UpcomingRoomsView.swift */,
+				DD3548412B5845B000542598 /* RoomView.swift */,
+				DD3548432B5852EC00542598 /* BottomHomeView.swift */,
 			);
 			path = HomeFeed;
+			sourceTree = "<group>";
+		};
+		DDA7D4A52B585E84008CDA4E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				DDA7D4A62B585E97008CDA4E /* ProfileView.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,9 +261,13 @@
 				DD18F43E2B5443260004A0AC /* FeedItem.swift in Sources */,
 				DD18F4512B54667C0004A0AC /* HomeHeaderView.swift in Sources */,
 				DD18F44A2B5443840004A0AC /* Image.swift in Sources */,
+				DDA7D4A42B585DDE008CDA4E /* ProfileHeaderView.swift in Sources */,
 				DD18F44C2B54488C0004A0AC /* Font.swift in Sources */,
 				DD18F4372B5442CC0004A0AC /* RoomViewModel.swift in Sources */,
+				DD3548442B5852EC00542598 /* BottomHomeView.swift in Sources */,
+				DD3548422B5845B000542598 /* RoomView.swift in Sources */,
 				DD18F43A2B5443130004A0AC /* UpcomingRoomModel.swift in Sources */,
+				DDA7D4A72B585E97008CDA4E /* ProfileView.swift in Sources */,
 				DD18F4262B54423A0004A0AC /* ClubHouseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
