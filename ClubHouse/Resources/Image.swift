@@ -26,5 +26,5 @@ extension Image {
     static let handRaised = Image(systemName: "hand.raised")
     static let ellipsis = Image(systemName: "ellipsis")
     static let star = Image(systemName: "staroflife.fill")
-    static let mute = Image(systemName: "speaker.splash.fill")
+    static let mute = Image(systemName: "speaker.slash.fill")
 }

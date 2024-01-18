@@ -12,6 +12,7 @@ struct ClubHouseApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(RoomViewModel())
         }
     }
 }
